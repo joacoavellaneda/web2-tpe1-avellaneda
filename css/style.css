@@ -1,0 +1,264 @@
+
+.list-group {
+  text-decoration: none;
+}
+.colorbar{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  
+
+  /*
+    display: block;
+    
+    
+    width: 50px;
+    height: 27px;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    border-width: 1px;
+    border-style: solid;
+    border-color: buttonborder;
+    border-image: initial;
+    padding: 1px 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+   
+   */
+   
+
+}
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 20px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn20 {
+    background-image: linear-gradient(
+      to right,
+      #667eea,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+  .carousel-inner{
+    
+    border-radius: 2em;
+    
+    border-radius: 2em;
+
+  }
+  carousel-indicators{
+    border-radius: 2em;
+  }
+ .imgcarousel {
+    display: flex;
+    justify-content: center;
+    padding-top: 4em;
+    
+    border-radius: 2em;
+	
+  }
+  body {
+	background-color: #767776;
+}
+.card{
+    background-color: #33383d;
+    border-radius: 1.5em;
+    
+    padding: 1em;
+    margin-top: 1em;
+
+
+       
+    
+}
+.list-group-item{
+    
+    border-radius: 1em;
+    margin-bottom: 0.3em;
+}
+.item-colors-bullet-square {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 1px;
+}
+.item-colors-bullet {
+font-size: 10px;
+line-height: 18px;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.fa-solid fa-mountain{
+  font-weight: 50%;
+}
+a {
+  text-decoration: none;
+}
+.bn54 {
+  
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.bn54 .bn54span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.bn54:hover {
+  animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+  animation: bn54storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bn54storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+.cardinfo{
+  display: flex;
+	justify-content:center;
+  flex-direction: row;
+  align-items: center;
+  background-color: #33383d;
+  width: 100%;
+  border-radius: 2em;
+  width: 20%;
+  height: 100%;
+  margin-top:1em;
+  margin-bottom: 1em;
+}
+
+.cardproduct{
+  display: flex;
+	justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #33383d;
+  width: 50%;
+  height: 100%;
+  margin-top:1em;
+  margin-bottom: 1em;
+}
+.bn45 {
+  
+  width: 170px;
+  height: 50px;
+}
+.bn46 {
+  
+
+  width: 150px;
+  height: 50px;
+}
+.cardfooter{
+  display: flex;
+	
+  flex-direction: row;
+  background-color: #212427;
+  width: 100;
+  padding: 1em;
+  height: 100%;
+  margin-top:1em;
+  
+}
+.cardbuttom{
+  display: flex;
+	justify-content:center;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+}
+
+.contact{
+  display: flex;
+	justify-content:right;
+  padding: 1em;
+  
+ 
+
+
+}
