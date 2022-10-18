@@ -103,12 +103,12 @@ switch ($params[0]) {
         $categoryController = new CategoryController();
         $categoryController->updateCategoryForReal();
         break;
+    
         
-         
     default:
 
-
-        header("HTTP/1.1 404 Not Found");
-        echo('404 Page not found');
-        break;
+    
+        $sectionController = new SectionController();
+        $sectionController->Error404();
+    break;
 }
