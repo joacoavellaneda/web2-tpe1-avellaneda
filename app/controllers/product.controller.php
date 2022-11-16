@@ -26,6 +26,7 @@ require_once "app/models/category.model.php";
          
     }
   public function addProducts() {
+        session_start();
         // TODO: validar entrada de datos
         $name = $_POST['name'];
         $price = $_POST['price'];
@@ -53,6 +54,7 @@ require_once "app/models/category.model.php";
    }
 
     public function updateProducts($id_products){
+      session_start();
         //TODO : validar entrada de datos  
       $products = $this-> model-> getById($id_products);
       $categories = $this->categorymodel->getAll();      
@@ -61,6 +63,7 @@ require_once "app/models/category.model.php";
     }
 
    public function updateProductForReal(){
+        session_start();
         $id_products = (int)$_POST['id_products'];
         $name = $_POST['name'];
         $price = $_POST['price'];

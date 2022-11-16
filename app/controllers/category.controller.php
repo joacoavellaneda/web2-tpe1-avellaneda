@@ -26,6 +26,7 @@ class CategoryController{
     
         
     public function addCategory(){
+      session_start();
 
       if( empty($_POST['category'])) {
         $this->view->showError("Error when uploading something empty.");
@@ -49,11 +50,13 @@ class CategoryController{
    
      
     public function updateCategory ($id_category) {
+      session_start();
         $categories = $this-> model-> getById($id_category);
         $this-> view-> editcategory($categories);
     }
     
     public function updateCategoryForReal(){
+      session_start();
 
       $id = (int)$_POST['id_category'];
       $name = $_POST['category'];
